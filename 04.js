@@ -14,6 +14,10 @@ function numeroSimetrico(num) {
 
   // Tu código:
 
+  var numCadena = num.toString();
+  var numInvertido = numCadena.split("").reverse().join("");
+  return numCadena === numInvertido;
+
 }
 
 // No modifiques nada debajo de esta linea //
